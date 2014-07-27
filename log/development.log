@@ -26328,3 +26328,923 @@ Processing by Devise::RegistrationsController#edit as HTML
   Rendered layouts/_header.html.erb (0.4ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-07-27 17:29:42 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xEeeBXp+pqhC9Mxr69FLQCGrBuZh2YEj/6nhicKfP0s="}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 17:29:42 -0300
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 17:29:42 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 17:29:42 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 17:29:43 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 17:29:43 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 17:29:43 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 17:29:43 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 17:29:43 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 17:29:43 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 17:29:43 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 17:50:38 -0300
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.7ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (31.3ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 65ms (Views: 50.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 17:50:38 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 17:50:38 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 17:50:38 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 17:50:38 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 17:50:38 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 17:50:38 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 17:50:38 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 17:50:38 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 17:50:38 -0300
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-07-27 17:50:40 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (20.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 34.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-07-27 17:50:41 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MmQ3p+pChuzgg3sQ6Vt9iuFM1uV0RSjpy5Fmn8uZFp4=", "user"=>{"name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 33ms (Views: 19.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 17:50:41 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 17:50:41 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 17:50:42 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 17:50:42 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 17:50:42 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 17:50:42 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 17:50:42 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 17:50:42 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 17:50:42 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 18:10:32 -0300
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.6ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (21.8ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 39.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:10:32 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:10:32 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:10:32 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:10:32 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:10:32 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:10:32 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:10:32 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:10:32 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:10:32 -0300
+
+
+Started GET "/listings/new" for 127.0.0.1 at 2014-07-27 18:10:33 -0300
+Processing by ListingsController#new as HTML
+  Rendered listings/_form.html.erb (38.8ms)
+  Rendered listings/new.html.erb within layouts/application (44.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2014-07-27 18:10:35 -0300
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MmQ3p+pChuzgg3sQ6Vt9iuFM1uV0RSjpy5Fmn8uZFp4=", "listing"=>{"name"=>"", "description"=>"", "price"=>""}, "commit"=>"Create Listing"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "listings" ("created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 27 Jul 2014 21:10:35 UTC +00:00], ["description", ""], ["name", ""], ["updated_at", Sun, 27 Jul 2014 21:10:35 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/listings/11
+Completed 302 Found in 10ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/listings/11" for 127.0.0.1 at 2014-07-27 18:10:35 -0300
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mListing Load (0.7ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "11"]]
+  Rendered listings/show.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 28.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:10:35 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:10:35 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:10:35 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:10:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:10:35 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:10:35 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:10:35 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:10:35 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:10:35 -0300
+
+
+Started GET "/assets/missing.jpg" for 127.0.0.1 at 2014-07-27 18:10:35 -0300
+
+
+Started GET "/listings" for 127.0.0.1 at 2014-07-27 18:11:35 -0300
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.5ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (25.7ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 52ms (Views: 40.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/listings/new" for 127.0.0.1 at 2014-07-27 18:11:36 -0300
+Processing by ListingsController#new as HTML
+  Rendered listings/_form.html.erb (4.1ms)
+  Rendered listings/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2014-07-27 18:11:38 -0300
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MmQ3p+pChuzgg3sQ6Vt9iuFM1uV0RSjpy5Fmn8uZFp4=", "listing"=>{"name"=>"", "description"=>"", "price"=>""}, "commit"=>"Create Listing"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered listings/_form.html.erb (7.0ms)
+  Rendered listings/new.html.erb within layouts/application (8.7ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 27ms (Views: 20.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:11:38 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:11:38 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:11:38 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:11:38 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:11:38 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:11:38 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:11:38 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:11:38 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:11:38 -0300
+
+
+Started POST "/listings" for 127.0.0.1 at 2014-07-27 18:12:39 -0300
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MmQ3p+pChuzgg3sQ6Vt9iuFM1uV0RSjpy5Fmn8uZFp4=", "listing"=>{"name"=>"", "description"=>"", "price"=>"0"}, "commit"=>"Create Listing"}
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/Users/fulanodetal/Dropbox/Code/etsydemo2/app/models/listing.rb:14: syntax error, unexpected ':', expecting '}'
+	validates :price, numericality { greater_than: 0 }
+	                                              ^):
+  app/controllers/listings_controller.rb:27:in `create'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.3ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2014-07-27 18:13:13 -0300
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MmQ3p+pChuzgg3sQ6Vt9iuFM1uV0RSjpy5Fmn8uZFp4=", "listing"=>{"name"=>"", "description"=>"", "price"=>"0"}, "commit"=>"Create Listing"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  Rendered listings/_form.html.erb (5.5ms)
+  Rendered listings/new.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 42ms (Views: 17.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:13:14 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:13:14 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:14 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:14 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:14 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:14 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:14 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:14 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:14 -0300
+
+
+Started POST "/listings" for 127.0.0.1 at 2014-07-27 18:13:19 -0300
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MmQ3p+pChuzgg3sQ6Vt9iuFM1uV0RSjpy5Fmn8uZFp4=", "listing"=>{"name"=>"", "description"=>"", "price"=>"-10"}, "commit"=>"Create Listing"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered listings/_form.html.erb (6.0ms)
+  Rendered listings/new.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 20.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:13:19 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:13:19 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:19 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:19 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:19 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:19 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:19 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:19 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:19 -0300
+
+
+Started POST "/listings" for 127.0.0.1 at 2014-07-27 18:13:22 -0300
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MmQ3p+pChuzgg3sQ6Vt9iuFM1uV0RSjpy5Fmn8uZFp4=", "listing"=>{"name"=>"", "description"=>"", "price"=>"sdsdasd"}, "commit"=>"Create Listing"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered listings/_form.html.erb (50.4ms)
+  Rendered listings/new.html.erb within layouts/application (51.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 70ms (Views: 64.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:13:23 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:13:23 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:23 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:23 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:23 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:23 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:23 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:23 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:13:23 -0300
+
+
+Started POST "/listings" for 127.0.0.1 at 2014-07-27 18:14:18 -0300
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MmQ3p+pChuzgg3sQ6Vt9iuFM1uV0RSjpy5Fmn8uZFp4=", "listing"=>{"name"=>"", "description"=>"", "price"=>"5,00"}, "commit"=>"Create Listing"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered listings/_form.html.erb (5.4ms)
+  Rendered listings/new.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 30ms (Views: 17.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:14:18 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:14:18 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:18 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:18 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:18 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:18 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:18 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:18 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:18 -0300
+
+
+Started POST "/listings" for 127.0.0.1 at 2014-07-27 18:14:25 -0300
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MmQ3p+pChuzgg3sQ6Vt9iuFM1uV0RSjpy5Fmn8uZFp4=", "listing"=>{"name"=>"", "description"=>"", "price"=>"5.99"}, "commit"=>"Create Listing"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered listings/_form.html.erb (5.5ms)
+  Rendered listings/new.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 22.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:14:25 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:14:25 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:25 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:25 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:25 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:25 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:25 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:25 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:25 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 18:14:44 -0300
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (12.2ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:14:44 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:44 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-27 18:14:44 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 18:14:44 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:14:44 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:44 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:44 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:44 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:44 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:44 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:14:44 -0300
+
+
+Started GET "/assets/missing.jpg" for 127.0.0.1 at 2014-07-27 18:14:44 -0300
+
+
+Started POST "/listings" for 127.0.0.1 at 2014-07-27 18:18:03 -0300
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MmQ3p+pChuzgg3sQ6Vt9iuFM1uV0RSjpy5Fmn8uZFp4=", "listing"=>{"name"=>"", "description"=>"", "price"=>"5.99"}, "commit"=>"Create Listing"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered listings/_form.html.erb (5.6ms)
+  Rendered listings/new.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 18.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:18:03 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-27 18:18:03 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 18:18:04 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:18:04 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:18:04 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:18:04 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:18:04 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:18:04 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:18:04 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:18:04 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:18:04 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 18:19:04 -0300
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.4ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (12.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:19:04 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:19:04 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-27 18:19:04 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:19:04 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 18:19:04 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:19:04 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:19:04 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:19:04 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:19:04 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:19:04 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:19:04 -0300
+
+
+Started GET "/listings/new" for 127.0.0.1 at 2014-07-27 18:19:06 -0300
+Processing by ListingsController#new as HTML
+  Rendered listings/_form.html.erb (9.4ms)
+  Rendered listings/new.html.erb within layouts/application (11.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2014-07-27 18:19:07 -0300
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MmQ3p+pChuzgg3sQ6Vt9iuFM1uV0RSjpy5Fmn8uZFp4=", "listing"=>{"name"=>"", "description"=>"", "price"=>""}, "commit"=>"Create Listing"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered listings/_form.html.erb (8.1ms)
+  Rendered listings/new.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 21.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:19:07 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:19:07 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-27 18:19:07 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 18:19:07 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:19:07 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:19:07 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:19:07 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:19:07 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:19:07 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:19:07 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:19:07 -0300
+
+
+Started GET "/listings" for 127.0.0.1 at 2014-07-27 18:20:39 -0300
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.3ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (9.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:20:39 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 18:20:39 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-27 18:20:39 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:20:39 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:20:39 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:20:39 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:20:39 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:20:39 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:20:39 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:20:39 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:20:39 -0300
+
+
+Started GET "/listings/new" for 127.0.0.1 at 2014-07-27 18:20:40 -0300
+Processing by ListingsController#new as HTML
+  Rendered listings/_form.html.erb (8.4ms)
+  Rendered listings/new.html.erb within layouts/application (10.6ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2014-07-27 18:20:41 -0300
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MmQ3p+pChuzgg3sQ6Vt9iuFM1uV0RSjpy5Fmn8uZFp4=", "listing"=>{"name"=>"", "description"=>"", "price"=>""}, "commit"=>"Create Listing"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered listings/_form.html.erb (8.8ms)
+  Rendered listings/new.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 22.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:20:42 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:20:42 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-27 18:20:42 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 18:20:42 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:20:42 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:20:42 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:20:42 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:20:42 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:20:42 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:20:42 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:20:42 -0300
+
+
+Started POST "/listings" for 127.0.0.1 at 2014-07-27 18:21:19 -0300
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MmQ3p+pChuzgg3sQ6Vt9iuFM1uV0RSjpy5Fmn8uZFp4=", "listing"=>{"name"=>"", "description"=>"", "price"=>""}, "commit"=>"Create Listing"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  Rendered listings/_form.html.erb (12.5ms)
+  Rendered listings/new.html.erb within layouts/application (14.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 43ms (Views: 33.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:21:19 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:21:19 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-27 18:21:19 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:21:19 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:21:20 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 18:21:20 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:21:20 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:21:20 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:21:20 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:21:20 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:21:20 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 18:22:56 -0300
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.4ms)[0m  SELECT "listings".* FROM "listings"
+  Rendered listings/index.html.erb within layouts/application (22.7ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 43ms (Views: 34.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:22:56 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:22:56 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-27 18:22:56 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 18:22:56 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:22:56 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:22:56 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:22:56 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:22:57 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:22:57 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:22:57 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:22:57 -0300
+
+
+Started GET "/listings/new" for 127.0.0.1 at 2014-07-27 18:22:58 -0300
+Processing by ListingsController#new as HTML
+  Rendered listings/_form.html.erb (9.2ms)
+  Rendered listings/new.html.erb within layouts/application (11.2ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2014-07-27 18:22:59 -0300
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MmQ3p+pChuzgg3sQ6Vt9iuFM1uV0RSjpy5Fmn8uZFp4=", "listing"=>{"name"=>"", "description"=>"", "price"=>""}, "commit"=>"Create Listing"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered listings/_form.html.erb (59.1ms)
+  Rendered listings/new.html.erb within layouts/application (60.9ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 82ms (Views: 73.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 18:22:59 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-27 18:22:59 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-27 18:22:59 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 18:22:59 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 18:22:59 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 18:22:59 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-27 18:22:59 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-27 18:22:59 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-27 18:22:59 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 18:22:59 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 18:22:59 -0300
+  [1m[36mSQL (4930.9ms)[0m  [1mDELETE FROM "users"[0m
+SQLite3::BusyException: database is locked: DELETE FROM "users"
+  [1m[35mSQL (5.9ms)[0m  DELETE FROM "users"
