@@ -4,6 +4,8 @@ Etsydemo::Application.routes.draw do
 
   get "pages/about"
   get "pages/contact"
+  get 'seller' => "listings#seller"
+
 
   root "listings#index"
 
