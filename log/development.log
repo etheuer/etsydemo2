@@ -37937,3 +37937,2185 @@ Processing by ListingsController#index as HTML
   Rendered layouts/_header.html.erb (0.5ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/seller" for 127.0.0.1 at 2014-07-29 17:44:11 -0300
+Processing by ListingsController#seller as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-07-29 17:44:11 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:11 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:11 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:11 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:11 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:11 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:11 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:11 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:11 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:11 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:11 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:11 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:11 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:12 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:12 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-29 17:44:42 -0300
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (1.2ms)[0m  [1mSELECT "listings".* FROM "listings" ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  Rendered listings/index.html.erb within layouts/application (30.7ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 110ms (Views: 107.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:42 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:42 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:42 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:42 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:42 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:42 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:42 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:42 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:42 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:42 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:42 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:42 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:42 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:42 -0300
+
+
+Started GET "/listings/10" for 127.0.0.1 at 2014-07-29 17:44:48 -0300
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mListing Load (0.2ms)[0m  SELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  Rendered listings/show.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 23.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/listings/10" for 127.0.0.1 at 2014-07-29 17:44:51 -0300
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mListing Load (0.1ms)[0m  SELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  Rendered listings/show.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:51 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:51 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:51 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:51 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:51 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:51 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-29 17:44:51 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:51 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:51 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:51 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:52 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:52 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:52 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-29 17:44:52 -0300
+
+
+Started GET "/listings/10/orders/new" for 127.0.0.1 at 2014-07-29 17:44:54 -0300
+Processing by OrdersController#new as HTML
+  Parameters: {"listing_id"=>"10"}
+Completed 401 Unauthorized in 2ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-07-29 17:44:54 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 33ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-29 17:44:56 -0300
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.3ms)[0m  SELECT "listings".* FROM "listings" ORDER BY created_at DESC
+  [1m[36mUser Load (1.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  Rendered listings/index.html.erb within layouts/application (32.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 57ms (Views: 52.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/listings/11" for 127.0.0.1 at 2014-07-29 17:44:58 -0300
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mListing Load (0.3ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "11"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  Rendered listings/show.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/listings/11/orders/new" for 127.0.0.1 at 2014-07-29 17:44:59 -0300
+Processing by OrdersController#new as HTML
+  Parameters: {"listing_id"=>"11"}
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-07-29 17:44:59 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-29 19:28:10 -0300
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (1.4ms)[0m  [1mSELECT "listings".* FROM "listings" ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  Rendered listings/index.html.erb within layouts/application (19.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 52ms (Views: 46.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-29 19:28:10 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-29 19:28:10 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-29 19:28:10 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-29 19:28:10 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-29 19:28:10 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-29 19:28:10 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-29 19:28:10 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-29 19:28:10 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-29 19:28:10 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-29 19:28:10 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-29 19:28:10 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-29 19:28:10 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-29 19:28:10 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-29 19:28:10 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-30 20:44:29 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.6ms)[0m  SELECT "listings".* FROM "listings" ORDER BY created_at DESC
+  [1m[36mUser Load (3.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  Rendered listings/index.html.erb within layouts/application (122.4ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 332ms (Views: 279.5ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 20:44:29 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 20:44:29 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 20:44:29 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-30 20:44:29 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 20:44:29 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 20:44:29 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 20:44:29 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 20:44:29 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 20:44:29 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 20:44:29 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 20:44:29 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 20:44:29 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 20:44:29 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 20:44:29 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 20:44:33 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 20:44:33 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 20:44:33 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 20:44:33 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 20:44:33 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 20:44:33 -0300
+
+
+Started GET "/listings/13" for 127.0.0.1 at 2014-07-30 21:11:39 -0300
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mListing Load (1.5ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "13"]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered listings/show.html.erb within layouts/application (20.5ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 77ms (Views: 59.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/listings/13/orders/new" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+Processing by OrdersController#new as HTML
+  Parameters: {"listing_id"=>"13"}
+Completed 401 Unauthorized in 3ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (37.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:44 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:45 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:45 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:45 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:45 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:45 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:45 -0300
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SjhsjVakCnmrDu2x8ZdY6facuTDj5Fpwya1kiUDSs5Q=", "user"=>{"email"=>"erik.theuer@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'erik.theuer@gmail.com' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (3.8ms)[0m  [1mUPDATE "users" SET "remember_created_at" = ?, "updated_at" = ? WHERE "users"."id" = 7[0m  [["remember_created_at", Thu, 31 Jul 2014 00:11:52 UTC +00:00], ["updated_at", Thu, 31 Jul 2014 00:11:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 7  [["last_sign_in_at", Tue, 29 Jul 2014 20:15:30 UTC +00:00], ["current_sign_in_at", Thu, 31 Jul 2014 00:11:52 UTC +00:00], ["sign_in_count", 9], ["updated_at", Thu, 31 Jul 2014 00:11:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/listings/13/orders/new
+Completed 302 Found in 152ms (ActiveRecord: 7.2ms)
+
+
+Started GET "/listings/13/orders/new" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+Processing by OrdersController#new as HTML
+  Parameters: {"listing_id"=>"13"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mListing Load (0.1ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "13"]]
+  Rendered orders/_form.html.erb (28.3ms)
+  Rendered orders/new.html.erb within layouts/application (31.6ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 67ms (Views: 54.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:52 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:53 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:53 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:53 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:53 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:53 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:11:53 -0300
+
+
+Started POST "/listings/13/orders" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jKnJA6ulmHtHNZEcUKa1OA0skHT6Lg8dO/2HjKSYnCI=", "order"=>{"address"=>"Urussui 71", "city"=>"Sao Paulo", "state"=>"SP"}, "commit"=>"Complete order", "listing_id"=>"13"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "13"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "orders" ("address", "buyer_id", "city", "created_at", "listing_id", "seller_id", "state", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["address", "Urussui 71"], ["buyer_id", 7], ["city", "Sao Paulo"], ["created_at", Thu, 31 Jul 2014 00:12:08 UTC +00:00], ["listing_id", 13], ["seller_id", 8], ["state", "SP"], ["updated_at", Thu, 31 Jul 2014 00:12:08 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.5ms)[0m  SELECT "listings".* FROM "listings" ORDER BY created_at DESC
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  Rendered listings/index.html.erb within layouts/application (26.8ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 55ms (Views: 51.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:12:08 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:12:10 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:12:10 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:12:10 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:12:10 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:12:10 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:12:10 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:26 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:26 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:26 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:26 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:26 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:26 -0300
+
+
+Started POST "/listings/13/orders" for 127.0.0.1 at 2014-07-30 21:14:29 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jKnJA6ulmHtHNZEcUKa1OA0skHT6Lg8dO/2HjKSYnCI=", "order"=>{"address"=>"", "city"=>"Sao Paulo", "state"=>"SP"}, "commit"=>"Complete order", "listing_id"=>"13"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "13"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered orders/_form.html.erb (4.3ms)
+  Rendered orders/new.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 21.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:29 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:29 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:29 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:29 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:29 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:29 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:29 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:29 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:29 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:29 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:29 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:29 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:29 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:29 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:30 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:30 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:30 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:30 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:30 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:30 -0300
+
+
+Started POST "/listings/13/orders" for 127.0.0.1 at 2014-07-30 21:14:35 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jKnJA6ulmHtHNZEcUKa1OA0skHT6Lg8dO/2HjKSYnCI=", "order"=>{"address"=>"", "city"=>"Sao Paulo", "state"=>"SP"}, "commit"=>"Complete order", "listing_id"=>"13"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mListing Load (0.1ms)[0m  SELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", "13"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered orders/_form.html.erb (2.9ms)
+  Rendered orders/new.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 15.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:35 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:35 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:35 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:35 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:35 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:35 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:35 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:35 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:35 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:35 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:35 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:35 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:36 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:36 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:36 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:36 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:36 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:36 -0300
+
+
+Started GET "/listings/13/orders" for 127.0.0.1 at 2014-07-30 21:14:43 -0300
+Processing by OrdersController#index as HTML
+  Parameters: {"listing_id"=>"13"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mOrder Load (0.3ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (22.5ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (undefined method `order_path' for #<#<Class:0x007f9f928e7b30>:0x007f9f92927550>):
+    18:         <td><%= order.address %></td>
+    19:         <td><%= order.city %></td>
+    20:         <td><%= order.state %></td>
+    21:         <td><%= link_to 'Show', order %></td>
+    22:         <td><%= link_to 'Edit', edit_order_path(order) %></td>
+    23:         <td><%= link_to 'Destroy', order, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    24:       </tr>
+  app/views/orders/index.html.erb:21:in `block in _app_views_orders_index_html_erb___1025700862109116077_70161667793520'
+  app/views/orders/index.html.erb:16:in `_app_views_orders_index_html_erb___1025700862109116077_70161667793520'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.6ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:46 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:46 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:46 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:46 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:46 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:46 -0300
+
+
+Started POST "/listings/13/orders" for 127.0.0.1 at 2014-07-30 21:14:47 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jKnJA6ulmHtHNZEcUKa1OA0skHT6Lg8dO/2HjKSYnCI=", "order"=>{"address"=>"", "city"=>"Sao Paulo", "state"=>"SP"}, "commit"=>"Complete order", "listing_id"=>"13"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mListing Load (0.3ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "13"]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered orders/_form.html.erb (7.7ms)
+  Rendered orders/new.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 25.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:47 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:47 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:47 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:47 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:47 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:14:47 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:47 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:47 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:47 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:47 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:47 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:47 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:47 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:47 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:48 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:48 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:48 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:48 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:48 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:14:48 -0300
+
+
+Started POST "/listings/13/orders" for 127.0.0.1 at 2014-07-30 21:15:31 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jKnJA6ulmHtHNZEcUKa1OA0skHT6Lg8dO/2HjKSYnCI=", "order"=>{"address"=>"", "city"=>"Sao Paulo", "state"=>"SP"}, "commit"=>"Complete order", "listing_id"=>"13"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mListing Load (0.2ms)[0m  SELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", "13"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered orders/_form.html.erb (5.1ms)
+  Rendered orders/new.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 75ms (Views: 64.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:15:31 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:15:31 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:15:31 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:15:31 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:15:31 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:31 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:31 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:31 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:31 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:31 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:31 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:31 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:31 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:32 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:32 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:32 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:32 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:32 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:32 -0300
+
+
+Started POST "/listings/13/orders" for 127.0.0.1 at 2014-07-30 21:15:35 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jKnJA6ulmHtHNZEcUKa1OA0skHT6Lg8dO/2HjKSYnCI=", "order"=>{"address"=>"", "city"=>"Sao Paulo", "state"=>"SP"}, "commit"=>"Complete order", "listing_id"=>"13"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mListing Load (0.1ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "13"]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered orders/_form.html.erb (3.1ms)
+  Rendered orders/new.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 24ms (Views: 16.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:15:35 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:35 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:15:35 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:15:35 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:15:35 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:15:35 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:35 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:35 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:35 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:35 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:35 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:37 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:37 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:37 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:37 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:37 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:15:37 -0300
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2014-07-30 21:16:09 -0300
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:09 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:09 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:09 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:09 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:09 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:09 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:09 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:09 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:09 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:09 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:09 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:09 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:09 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:10 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:10 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:10 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:10 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:10 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:10 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-30 21:16:11 -0300
+Processing by ListingsController#index as HTML
+  [1m[35mListing Load (0.4ms)[0m  SELECT "listings".* FROM "listings" ORDER BY created_at DESC
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  Rendered listings/index.html.erb within layouts/application (28.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 43.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/listings/10" for 127.0.0.1 at 2014-07-30 21:16:12 -0300
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mListing Load (0.2ms)[0m  SELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered listings/show.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 28.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/listings/10/orders/new" for 127.0.0.1 at 2014-07-30 21:16:17 -0300
+Processing by OrdersController#new as HTML
+  Parameters: {"listing_id"=>"10"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mListing Load (0.2ms)[0m  SELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", "10"]]
+  Rendered orders/_form.html.erb (6.0ms)
+  Rendered orders/new.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 20.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:17 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:17 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:17 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:17 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:17 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:17 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:17 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:17 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:17 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:17 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:17 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:17 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:17 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:19 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:19 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:19 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:19 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:19 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:19 -0300
+
+
+Started POST "/listings/10/orders" for 127.0.0.1 at 2014-07-30 21:16:20 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jKnJA6ulmHtHNZEcUKa1OA0skHT6Lg8dO/2HjKSYnCI=", "order"=>{"address"=>"", "city"=>"", "state"=>""}, "commit"=>"Complete order", "listing_id"=>"10"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mListing Load (0.3ms)[0m  SELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered orders/_form.html.erb (7.8ms)
+  Rendered orders/new.html.erb within layouts/application (9.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 25.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:20 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:20 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:20 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:20 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:20 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:20 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:20 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:20 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:20 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:20 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:20 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:20 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:20 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:21 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:21 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:21 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:21 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:21 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:21 -0300
+
+
+Started GET "/listings/10/" for 127.0.0.1 at 2014-07-30 21:16:35 -0300
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mListing Load (0.2ms)[0m  SELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  Rendered listings/show.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 16.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:35 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:35 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:35 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:35 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:35 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:35 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:35 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:35 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:35 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:35 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:35 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:35 -0300
+
+
+Started GET "/listings/10/orders/new" for 127.0.0.1 at 2014-07-30 21:16:37 -0300
+Processing by OrdersController#new as HTML
+  Parameters: {"listing_id"=>"10"}
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-07-30 21:16:37 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-07-30 21:16:40 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+XiJPFOEFv65bh2d8N66C/e0fwADYIE1MhA2ORhHRgM=", "user"=>{"email"=>"erik.theuer@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'erik.theuer@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 7  [["last_sign_in_at", Thu, 31 Jul 2014 00:11:52 UTC +00:00], ["current_sign_in_at", Thu, 31 Jul 2014 00:16:40 UTC +00:00], ["sign_in_count", 10], ["updated_at", Thu, 31 Jul 2014 00:16:40 UTC +00:00]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/listings/10/orders/new
+Completed 302 Found in 120ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/listings/10/orders/new" for 127.0.0.1 at 2014-07-30 21:16:40 -0300
+Processing by OrdersController#new as HTML
+  Parameters: {"listing_id"=>"10"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  Rendered orders/_form.html.erb (5.1ms)
+  Rendered orders/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 28.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:41 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:41 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:41 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:41 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:41 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:41 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:41 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:41 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:41 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:41 -0300
+
+
+Started POST "/listings/10/orders" for 127.0.0.1 at 2014-07-30 21:16:42 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I3CsmxcgXZ/b9d0Dg8TNlI43mO27FMCCl3hOQ7UzFOM=", "order"=>{"address"=>"", "city"=>"", "state"=>""}, "commit"=>"Complete order", "listing_id"=>"10"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered orders/_form.html.erb (4.3ms)
+  Rendered orders/new.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 20.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:42 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:42 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:42 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:16:42 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:42 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:42 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:42 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:42 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:42 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:16:42 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-30 21:18:38 -0300
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  Rendered listings/index.html.erb within layouts/application (17.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 28.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:18:38 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:18:38 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:38 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:38 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:38 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:38 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:38 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:38 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:38 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:38 -0300
+
+
+Started GET "/listings/13" for 127.0.0.1 at 2014-07-30 21:18:39 -0300
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mListing Load (0.3ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "13"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered listings/show.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 20.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/listings/13/orders/new" for 127.0.0.1 at 2014-07-30 21:18:40 -0300
+Processing by OrdersController#new as HTML
+  Parameters: {"listing_id"=>"13"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "13"]]
+  Rendered orders/_form.html.erb (3.8ms)
+  Rendered orders/new.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 24ms (Views: 19.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/listings/13/orders" for 127.0.0.1 at 2014-07-30 21:18:41 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I3CsmxcgXZ/b9d0Dg8TNlI43mO27FMCCl3hOQ7UzFOM=", "order"=>{"address"=>"", "city"=>"", "state"=>""}, "commit"=>"Complete order", "listing_id"=>"13"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "13"]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered orders/_form.html.erb (6.2ms)
+  Rendered orders/new.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 19.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:18:41 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:41 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:41 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:18:41 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:41 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:41 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:41 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:41 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:41 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:18:41 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-30 21:19:28 -0300
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  Rendered listings/index.html.erb within layouts/application (14.4ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:19:28 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:19:28 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:28 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:28 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:28 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:28 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:28 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:28 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:28 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:28 -0300
+
+
+Started GET "/listings/5" for 127.0.0.1 at 2014-07-30 21:19:29 -0300
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mListing Load (0.2ms)[0m  SELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", "5"]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  Rendered listings/show.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/listings/5/orders/new" for 127.0.0.1 at 2014-07-30 21:19:30 -0300
+Processing by OrdersController#new as HTML
+  Parameters: {"listing_id"=>"5"}
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-07-30 21:19:31 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-07-30 21:19:34 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4O0lQ3RE7lJt4+bVum4lVhKRsbErkygmI1G3lix7bNM=", "user"=>{"email"=>"erik.theuer@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'erik.theuer@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 7  [["last_sign_in_at", Thu, 31 Jul 2014 00:16:40 UTC +00:00], ["current_sign_in_at", Thu, 31 Jul 2014 00:19:35 UTC +00:00], ["sign_in_count", 11], ["updated_at", Thu, 31 Jul 2014 00:19:35 UTC +00:00]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/listings/5/orders/new
+Completed 302 Found in 121ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/listings/5/orders/new" for 127.0.0.1 at 2014-07-30 21:19:35 -0300
+Processing by OrdersController#new as HTML
+  Parameters: {"listing_id"=>"5"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered orders/_form.html.erb (4.5ms)
+  Rendered orders/new.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 24.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:19:35 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:19:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:35 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:35 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:35 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:35 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:35 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:35 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:35 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:35 -0300
+
+
+Started POST "/listings/5/orders" for 127.0.0.1 at 2014-07-30 21:19:37 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tH7x9v81Wee3spL12x64izWOhHt6w5zPdpnc5Snq2EM=", "order"=>{"address"=>"", "city"=>"", "state"=>""}, "commit"=>"Complete order", "listing_id"=>"5"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered orders/_form.html.erb (4.7ms)
+  Rendered orders/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 32ms (Views: 20.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:19:37 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:19:37 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:37 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:37 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:37 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:37 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:37 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:37 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:37 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:19:37 -0300
+
+
+Started GET "/seller" for 127.0.0.1 at 2014-07-30 21:20:15 -0300
+Processing by ListingsController#seller as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mListing Load (0.3ms)[0m  SELECT "listings".* FROM "listings" WHERE "listings"."user_id" = 7 ORDER BY created_at DESC
+  Rendered listings/seller.html.erb within layouts/application (8.7ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 28ms (Views: 24.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:20:16 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:20:16 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:16 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:20:16 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:20:16 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:20:16 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:16 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:16 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:16 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:16 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:16 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:16 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:16 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:17 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:17 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:17 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:17 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:17 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:17 -0300
+
+
+Started GET "/listings/new" for 127.0.0.1 at 2014-07-30 21:20:17 -0300
+Processing by ListingsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered listings/_form.html.erb (14.2ms)
+  Rendered listings/new.html.erb within layouts/application (17.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 40ms (Views: 36.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2014-07-30 21:20:19 -0300
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jKnJA6ulmHtHNZEcUKa1OA0skHT6Lg8dO/2HjKSYnCI=", "listing"=>{"name"=>"", "description"=>"", "price"=>""}, "commit"=>"Create Listing"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  Rendered listings/_form.html.erb (7.4ms)
+  Rendered listings/new.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 23.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:20:19 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:20:19 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:20:19 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:20:19 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:20:19 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:19 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:19 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:19 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:19 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:19 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:19 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:19 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:19 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:20 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:20 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:20 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:20 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:20 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:20:20 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-30 21:22:04 -0300
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.4ms)[0m  [1mSELECT "listings".* FROM "listings" ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  Rendered listings/index.html.erb within layouts/application (16.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:22:04 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:22:04 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:22:04 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:22:04 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:22:04 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:04 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:04 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:04 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:04 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:04 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:04 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:04 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:04 -0300
+
+
+Started GET "/listings/10" for 127.0.0.1 at 2014-07-30 21:22:05 -0300
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered listings/show.html.erb within layouts/application (8.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/listings/10/orders/new" for 127.0.0.1 at 2014-07-30 21:22:06 -0300
+Processing by OrdersController#new as HTML
+  Parameters: {"listing_id"=>"10"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mListing Load (0.1ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  Rendered orders/_form.html.erb (4.4ms)
+  Rendered orders/new.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:06 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:06 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:06 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:06 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:06 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:06 -0300
+
+
+Started POST "/listings/10/orders" for 127.0.0.1 at 2014-07-30 21:22:07 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jKnJA6ulmHtHNZEcUKa1OA0skHT6Lg8dO/2HjKSYnCI=", "order"=>{"address"=>"", "city"=>"", "state"=>""}, "commit"=>"Complete order", "listing_id"=>"10"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered orders/_form.html.erb (4.5ms)
+  Rendered orders/new.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 17.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:22:07 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:22:07 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:22:07 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:22:07 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:07 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:22:07 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:07 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:07 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:07 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:07 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:07 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:07 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:07 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:08 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:08 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:08 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:08 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:08 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:08 -0300
+
+
+Started POST "/listings/10/orders" for 127.0.0.1 at 2014-07-30 21:22:13 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jKnJA6ulmHtHNZEcUKa1OA0skHT6Lg8dO/2HjKSYnCI=", "order"=>{"address"=>"", "city"=>"", "state"=>""}, "commit"=>"Complete order", "listing_id"=>"10"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mListing Load (0.1ms)[0m  SELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered orders/_form.html.erb (5.0ms)
+  Rendered orders/new.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 24.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:22:13 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:22:13 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:13 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:22:13 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:22:13 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:22:13 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:13 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:13 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:13 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:13 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:13 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:13 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:13 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:14 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:14 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:14 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:14 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:14 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:22:14 -0300
+
+
+Started POST "/listings/10/orders" for 127.0.0.1 at 2014-07-30 21:23:42 -0300
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jKnJA6ulmHtHNZEcUKa1OA0skHT6Lg8dO/2HjKSYnCI=", "order"=>{"address"=>"", "city"=>"", "state"=>""}, "commit"=>"Complete order", "listing_id"=>"10"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mListing Load (0.2ms)[0m  [1mSELECT "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered orders/_form.html.erb (8.3ms)
+  Rendered orders/new.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 26.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-30 21:23:43 -0300
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-07-30 21:23:43 -0300
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-07-30 21:23:43 -0300
+
+
+Started GET "/assets/listings.css?body=1" for 127.0.0.1 at 2014-07-30 21:23:43 -0300
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-30 21:23:43 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-30 21:23:43 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-30 21:23:43 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:23:43 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:23:43 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:23:43 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:23:43 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:23:43 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:23:43 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-30 21:23:44 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-30 21:23:44 -0300
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-07-30 21:23:44 -0300
+
+
+Started GET "/assets/listings.js?body=1" for 127.0.0.1 at 2014-07-30 21:23:44 -0300
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-30 21:23:44 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-30 21:23:44 -0300
