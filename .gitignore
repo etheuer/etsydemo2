@@ -6,6 +6,9 @@
 /tmp
 
 /config/application.yml
+/config/dropbox.yml
+
 
 # Ignore files uploaded on localhost
 /public/system
+
